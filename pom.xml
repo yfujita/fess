@@ -61,7 +61,7 @@
 		<crawler.version>1.0.0</crawler.version>
 
 		<!-- Suggest -->
-		<suggest.version>2.0.0</suggest.version>
+		<suggest.version>2.0.1-SNAPSHOT</suggest.version>
 
 		<!-- Elasticsearch -->
 		<elasticsearch.version>2.1.0</elasticsearch.version>
@@ -535,7 +535,7 @@
 			<artifactId>tomcat-boot</artifactId>
 			<version>${tomcat.boot.version}</version>
 			<!-- Disable scope at development on IDEA -->
-			<scope>provided</scope>
+			<!-- <scope>provided</scope> -->
 			<exclusions>
 				<exclusion>
 					<groupId>org.apache.tomcat</groupId>
